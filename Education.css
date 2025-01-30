@@ -1,0 +1,251 @@
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.one{
+    border-radius: 3500px;
+    height: 80px;
+    width: 80px;
+    margin-left: 22px;
+}
+.logo{
+    margin: 12px;
+    display: flex;
+    margin-left: 40px;
+}
+a{
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 15px;
+    gap: 5px;
+    font-size: larger;
+    font-weight: 800;
+    transition: background-color 1.5s ease-in-out, color 0.6s ease-in-out;
+}
+
+a:active{
+color: brown;
+text-decoration: underline;    
+}
+a:hover{
+    cursor: pointer;
+color: black;
+box-sizing: border-box;
+background-color: rgba(240, 248, 255, 0.173);
+border-radius: 5px;
+text-decoration: underline;
+}
+.navbar-container{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    position: absolute;
+    gap: 42px;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.navbar-link-icons{
+    display: flex;
+    align-items: center;
+    width: auto;
+    background-color: rgba(33, 31, 35, 0.659);
+    backdrop-filter: blur(30px);
+    color: rgba(179, 146, 255, 0.868);
+    font-weight: 500;
+    font-size: 20px;
+    gap: 42px;
+    padding: 22.5px 12px 23.5px;
+    border-radius: 50px;
+}
+
+.navbar-icon{
+    margin-left: 70px;
+    
+    font-size: xx-large;
+    color: lightgoldenrodyellow;
+}
+i{
+    margin: 10px;
+}
+.navbar-icon:hover{
+    cursor: pointer;
+}
+section{
+    margin-top: -50px;
+    margin-left: 200px;
+}
+.container{
+    
+    gap: 10px;
+    margin: 200px;
+    margin-bottom: 500px;
+    margin-left: -1200px;
+    
+
+}
+
+.box{
+
+    box-sizing: border-box;
+    background-color: rgba(240, 255, 255, 0);
+    width: 800px;
+    height: 190px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+    border-style:solid;
+    line-height: 1;
+    border-color: rgba(255, 255, 255, 0.406);
+    border-width: -15px;
+    margin: 50px;
+}
+
+.box2{
+
+    box-sizing: border-box;
+    background-color: rgba(240, 255, 255, 0);
+    width: 800px;
+    height: 190px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+    border-style:solid;
+    line-height: 1;
+    border-color: rgba(255, 255, 255, 0.406);
+    border-width: -15px;
+    margin: 50px;
+    margin-left: 2opx;
+}
+
+.box3{
+
+    box-sizing: border-box;
+    background-color: rgba(240, 255, 255, 0);
+    width: 800px;
+    height: 190px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+    border-style:solid;
+    line-height: 1;
+    border-color: rgba(255, 255, 255, 0.406);
+    
+    margin: 50px;
+  
+}
+
+
+.dtls{
+    margin-left: 80px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+h6{
+    
+    padding-top: -15px;
+    font-size: small;
+    font-family: srif;
+    color: rgba(240, 248, 255, 0.777);
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.89)
+
+}
+p{
+    color: purple;
+     font-size: larger;
+     font-weight: 200;
+}
+h4{
+    margin-top: -100px;
+    margin-right: 80px;
+    float: right;
+    width: 10px;
+    color: aquamarine;
+}
+@media(max-width:768px){
+    .box{
+        height: 350px;
+        width: 500px;
+        margin-left: 400px;
+        
+
+    }
+    
+    .container{
+margin-left: -1350px;
+    }
+    .box2{
+        height: 350px;
+        width: 500px;
+        margin-left: 400px;
+        
+
+    }
+    .box3{
+        height: 350px;
+        width: 500px;
+        margin-left: 400px;
+        
+
+    }
+    .dtls{
+        margin: 50px;
+        text-align: center;
+        margin-right: 60px;
+        font-size: x-large;
+    }
+
+    h4{
+        font-size: large;
+         width: 300px;
+        margin: 10px;
+        margin-right:110px;
+    }
+    .navbar-link{
+        display: flex;
+    }
+    .navbar-icon{
+        display: flex;
+    }
+
+}
+@media(max-width:1024px){
+
+    .navbar-link{
+        display: flex;
+    }
+    .navbar-icon{
+        margin-left: -20px;
+        display: flex;
+    }
+    .container{
+        margin-left: -1050px;
+    }
+    i{
+        display: flex;
+    }
+    
+        
+    
+}
+@media(max-width:768px){
+.container{
+    margin-left: -1300px;
+}
+}
+
+@media(max-width:500px){
+    .container{
+        margin-left: -1300px;
+        
+    }
+}
+ 

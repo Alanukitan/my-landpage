@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.one{
+    border-radius: 3500px;
+    height: 80px;
+    width: 80px;
+}
+.logo{
+    margin: 15px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.navbar-container{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    position: absolute;
+    gap: 42px;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+.navbar-link-icons{
+    display: flex;
+    align-items: center;
+    width: auto;
+    background-color: rgba(33, 31, 35, 0.659);
+    backdrop-filter: blur(30px);
+    color: rgba(179, 146, 255, 0.868);
+    font-weight: 500;
+    font-size: 20px;
+    gap: 42px;
+    padding: 22.5px 12px 23.5px;
+    border-radius: 50px;
+}
+a{
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: larger;
+    font-weight: 800;
+    transition: background-color 1.5s ease-in-out, color 0.6s ease-in-out;
+}
+
+a:active{
+color: brown;
+text-decoration: underline;    
+}
+a:hover{
+    cursor: pointer;
+color: black;
+box-sizing: border-box;
+background-color: rgba(240, 248, 255, 0.173);
+border-radius: 5px;
+text-decoration: underline;
+}
+.navbar-icon{
+    font-size: xx-large;
+    color: lightgoldenrodyellow;
+}
+.navbar-icon:hover{
+    cursor: pointer;
+}
+#see:hover{
+    cursor: pointer;
+
+}
+i{
+    margin: 10px;
+    font-size: larger;
+}
+
+p{
+    color: rgba(240, 248, 255, 0.796);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    display: block;
+    width: 650px;
+    line-height: 1.5;
+    }
+    b{
+        color: aliceblue;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: larger;
+    }
+    section{
+        margin-left: 300px;
+    }
+    main{
+        margin-bottom: -120px;
+        margin: 200px;
+        margin-left: 450px;
+    }
+
+        button{
+            margin-left: 150px;
+            margin-top:20px;
+            background-color: white;
+            color: black;
+            border-radius: 30px;
+            height: 50px;
+            width: 190px;
+            text-align: center;
+            font-size: medium;
+            font-weight: 600;
+            font-family: sans-serif;
+            border-style: outset;
+            transition: background-color 1.5s ease-in-out, color 0.6s ease-in-out;
+        }
+        
+        
+        button:hover{
+            cursor: pointer;
+            box-shadow: 10px white;
+            background-color:  blueviolet;
+        }
+        .box{
+            line-height: 2;
+            box-sizing: border-box;
+            background-color: rgba(84, 79, 79, 0.358);
+            width: 800px;
+            height: 300px;
+            border-radius: 20px;
+            margin: 50px;
+            }
+        aside{
+            float: right;
+            margin: 20px;
+            margin-right:50px ;
+        }
+        span{
+            margin: 25px;
+            margin-left: 30px;
+            float: left;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-larger;
+            color: white;
+        }
+        h2{
+            color: rgb(182, 50, 247);
+        }
+        h3{
+            color: rgb(182, 20, 252);
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: lighter;
+        }
+        h5{
+            width: 170px;
+            color: rgba(240, 248, 255, 0.797);
+            font-size: small;
+        }
+        #Company{
+            
+            line-height: 1.5;
+            width: 300px;
+            font-size: small;
+            color: rgba(240, 248, 255, 0.797);
+
+        }
+        .footer-container{
+
+            color: rgba(240, 255, 255, 0.59);
+            display: flex;
+            margin: 50px;
+            padding: 10px;
+            margin-left: 340px;
+        
+        
+         }
+         k{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: large;
+            margin-left: 15px;
+         }
+         .foot{
+            padding: 10px;
+            box-sizing: border-box;
+            width: 800px;
+            height: 45px;
+            border-radius: 20px;
+            background-color: #f5f5f568;
+            display: inline;
+            
+         }
+         .ik{
+            margin-right: 20px;
+            float: right;
+            display: flex;
+            gap: 15px;
+         }
+         .ik:hover{
+            cursor: pointer;
+         }
+         em{
+            font-size: larger;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: aliceblue;
+            margin-top: 100px;
+            margin-left: 320px;
+
+            
+        
+         }
+         k:hover{
+            cursor: pointer;
+         }
+         .mention:hover{
+            cursor: pointer;
+         }
+    @media(max-width:768px){
+        .navbar-container{
+            margin-left: 200px;
+        }
+        main{
+            margin-left: 280px;
+        }
+        section{
+            margin-left: 120px;
+        }
+    }
+    @media(max-width:600px){
+        .navbar-container{
+            margin-left: 100px;
+        }
+        
+        .navbar-link{
+            display: flex;
+        }
+        .navbar-icon{
+            display: flex;
+        }
+        section{
+            margin-left: 30px;
+        }
+        main{
+            margin-left: 180px;
+        }
+        .footer-container{
+            width: 300px;
+
+        }
+        .foot{
+            display: flex;
+        }
+        .ik{
+            margin-left: 60px;
+        }
+        em{
+            text-align: center;
+            margin-left: 90px;
+        }
+    }
+    @media(max-width:425px){
+
+        em{
+            margin-left: 70px;
+        }
+        section{
+            margin: -40px;
+            margin-left: -30px;
+        }
+        main{
+            margin-left: 90px;
+        }
+        .footer-container{
+            margin: 20px;
+        
+
+    }

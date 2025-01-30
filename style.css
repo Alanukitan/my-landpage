@@ -1,0 +1,582 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+body{
+    overflow-x: hidden;
+    background-color: black ;
+}
+b{
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+.one{
+    border-radius: 3500px;
+    height: 80px;
+    width: 80px;
+}
+.logo{
+    margin: 15px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.navbar-container{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    position: absolute;
+    gap: 42px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.navbar-link-icons{
+    display: flex;
+    align-items: center;
+    width: auto;
+    background-color: rgba(33, 31, 35, 0.659);
+    backdrop-filter: blur(30px);
+    color: rgba(179, 146, 255, 0.868);
+    font-weight: 500;
+    font-size: 20px;
+    gap: 42px;
+    padding: 22.5px 12px 23.5px;
+    border-radius: 50px;
+}
+a{
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: larger;
+    font-weight: 800;
+    transition: background-color 1.5s ease-in-out, color 0.6s ease-in-out;
+}
+
+a:active{
+color: brown;
+text-decoration: underline;    
+}
+a:hover{
+    cursor: pointer;
+color: black;
+box-sizing: border-box;
+background-color: rgba(240, 248, 255, 0.173);
+border-radius: 5px;
+text-decoration: underline;
+}
+.navbar-icon{
+    font-size: xx-large;
+    color: lightgoldenrodyellow;
+}
+.navbar-icon:hover{
+    cursor: pointer;
+}
+#see:hover{
+    cursor: pointer;
+
+}
+i{
+    margin: 10px;
+    font-size: larger;
+}
+.main{
+    margin: 150px;
+    width: 440px;
+
+}
+h1{font-family: sans-serif;
+    font-size: 75px;
+    font-weight: 500;
+    color: white;
+    line-height: 1.0;
+   
+    
+}
+
+
+strong{
+    font-family: sans-serif;
+    color: white;
+    font-style: normal;
+}
+.about{
+margin-top: 20px;
+    display: block;
+    font-weight: 20;
+    font-size: large;
+    line-height: 1.5;
+    color: rgba(232, 228, 228, 0.666);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.one:hover{cursor: pointer;}
+button{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    height: 50px;
+    width: 190px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-style: outset;
+    transition: background-color 1.5s ease-in-out, color 0.6s ease-in-out;
+}
+
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 10px white;
+    background-color:  blueviolet;
+}
+.experience{
+    display:flex ;
+}
+#see{
+    margin-left: 20px;
+    font-size:x-large ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: blueviolet;
+    transition: background-color 1.5s ease-in-out, color 0.6s ease-in-out;
+
+}
+#see:hover{
+    color: white;
+}
+.myimg{
+    height: 450px;
+    width: 450px;
+    border-radius: 300px;
+    margin-left: 800px;
+    float: left;
+    margin-left: 700px;
+    margin-top: -400px;
+}
+.container{
+    display: flex;
+    color: rgba(240, 248, 255, 0.748);
+    margin-left: 20px;
+    width: 100%;
+}
+.XP{
+width: 150px;
+}
+h4{
+
+    font-size: medium;
+    font-family: sans-serif;
+    
+}
+h2{
+    color: white;
+    font-size:90px;
+    font-weight: bolder;
+    font-family: serif;
+
+}
+
+.icon-box{
+    width: 95%;
+    display: flex;
+    margin-left: 40px;
+    gap: 40px;
+    overflow-x: scroll;
+    max-width: 100%;
+    
+}
+.good{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    
+}
+
+::-webkit-scrollbar{
+    overflow-x: hidden;
+    display: none;
+}
+aside{
+    
+justify-content: center;
+    gap: 25px;
+    display: flex;
+    
+}
+#box1{
+    box-sizing: border-box;
+    width: 400px;
+    height: 250px;
+    background-color: #F1662A;
+    border-radius: 30px;
+}
+#box2{
+    box-sizing: border-box;
+    width: 200px;
+    height: 250px;
+    background-color: darkslateblue;
+    border-radius: 30px;
+}
+#box3{
+    box-sizing: border-box;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 30px;
+}
+#box4{
+    box-sizing: border-box;
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    background-color: #C3C99E;
+}
+#box5{
+    box-sizing: border-box;
+    width: 400px;
+    height: 250px;
+    background-color:purple;
+    border-radius: 30px;
+}
+.mention{
+    margin: 150px;
+    margin-left: 500px;
+    
+}
+
+.rr{
+    font-size: 150px;
+    color: darkkhaki;
+}
+.tt{
+    font-size: 130px;
+    color: cornflowerblue;
+}
+.oo{
+    font-size: 150px;
+    color: teal;
+}
+.desc{
+    
+    font-weight: 500;
+    font-family: 'Courier New', Courier;
+    font-size: 60px;
+    width: 850px;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.745);
+    line-height: 1.0;
+    margin-top: 350px;
+    margin-left: 300px;
+
+}
+.container-tech{
+    margin-left: 320px;
+    margin-top: 100px;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    
+}
+.box-1{
+    height: 220px;
+     width: 190px;
+     background-color: rgba(240, 248, 255, 0);
+     border:gray;
+     border-style: groove;
+     border-width: small;
+     
+}
+p{
+color: #f5f5f5;
+margin: 20px; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+font-size: 18px;
+ 
+}
+#app{
+    background-color: #c3c99e4a;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 4px;
+}
+
+#play{
+    background-color: #c3c99e4a;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+   .box-1{
+    height: 200px;
+     width: 190px;
+     background-color: rgba(240, 248, 255, 0);
+     border:gray;
+     border-style: groove;
+     border-width: small;
+     
+}
+    
+
+.box-2{
+    height: 350px;
+     width: 190px;
+     background-color: rgba(240, 248, 255, 0);
+     border:gray;
+     border-style: groove;
+           
+}
+.tnd{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    
+}
+
+#Tailwind{
+    background-color: #c3c99e4a;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    padding: 8px;
+    margin: 10px;
+}
+#React{
+    background-color: #c3c99e4a;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    padding: 8px;
+    margin: 10px;
+
+}
+#figma{background-color: #c3c99e4a;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    padding: 8px;
+    margin: 10px;
+
+}
+#lib{
+    background-color: #c3c99e4a;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    padding: 8px;
+    margin: 10px;
+}
+.box-3{
+    
+    height: 130px;
+    width: 160px;
+    background-color: rgba(240, 248, 255, 0);
+    border:gray;
+    border-style: groove;
+}
+#Js{
+    background-color: #c3c99e4a;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    padding: 8px;
+    margin: 10px;
+
+}
+.low{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.box-4{
+    height: 250px;
+    width: 160px;
+    background-color: rgba(240, 248, 255, 0);
+    border:gray;
+    border-style: groove;
+}
+ #git{
+    background-color: #c3c99e4a;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    padding: 8px;
+    margin: 10px;
+ }
+ #github{
+    background-color: #c3c99e4a;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    padding: 8px;
+    margin: 10px;
+ }
+ #hus{
+    background-color: #c3c99e4a;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    padding: 8px;
+    margin: 10px;
+ }
+ .footer-container{
+
+    color: rgba(240, 255, 255, 0.59);
+    display: flex;
+    margin: 50px;
+    padding: 10px;
+    margin-left: 280px;
+
+
+ }
+ k{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    margin-left: 15px;
+ }
+ .foot{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 800px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #f5f5f568;
+    
+ }
+ .ik{
+    margin-right: 20px;
+    float: right;
+    display: flex;
+    gap: 15px;
+ }
+ .ik:hover{
+    cursor: pointer;
+ }
+ em{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 290px;
+
+ }
+ k:hover{
+    cursor: pointer;
+ }
+ .mention:hover{
+    cursor: pointer;
+ }
+ @media (max-width:768px){ 
+    body{
+        overflow-x: hidden;
+        width: 1000px;
+    }
+    .main{
+        margin: 120px;
+    }
+    .navbar-container{
+         margin-left: 200px;
+        }
+
+    .myimg{
+        margin-left: 450px;
+        height: 320px;
+        width:320px;
+    }
+    .rr{
+        width: 700px;
+        font-size: 100px;
+    }
+    .container-tech{
+        align-items: center;
+    }
+    .box-1{
+        padding-left: 20px;
+        width: 450px;
+        height: 210px;
+    }
+    .box-2{
+        padding-left: 20px;
+        width: 450px;
+        height: 320px;
+    }
+    .box-3{
+        padding-left: 20px;
+        width: 450px;
+        height: 150px;
+    }
+    .box-4{
+        padding-left: 20px;
+        width: 450px;
+        height: 270px;
+    }
+    
+    .mention{
+        margin-left: 160px;
+        
+    }
+    .desc{
+        margin-left: 20px;
+    }
+    .container-tech{
+        flex-direction: column;
+        margin-left: 90px;
+    }
+    .footer-container{
+        margin-left: 60px;
+    }
+
+     }
+     @media(max-width:450px){
+        body{
+            overflow-x: hidden;
+        }
+.myimg{
+    height: 280px;
+    width: 280px;
+    margin-left: 450px;
+}
+.about{
+    margin-left: -20px;
+}
+.experience{
+    margin-left: -20px;
+}
+        .mention{
+            line-height: 1.5;
+
+        }
+        .navbar-link{
+            display: flex;
+        
+        }
+        .navbar-icon{
+            display: flex;
+        }
+        .container-tech{
+            
+            margin-left: 100px;
+        }
+        
+     }
