@@ -281,8 +281,17 @@ p{
                 display: none;
             }
             .navbar-container{
-                margin-left: 200px;
+                margin-left: 240px;
             }
+        
         
 
     }
+    @media(max-width:500px) {
+        .navbar-icon{
+            display: none;
+        }
+        .navbar-container{
+            margin-left: 280px;
+        }
+    }   
