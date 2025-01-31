@@ -244,8 +244,16 @@ margin-left: -1350px;
 
 @media(max-width:500px){
     .container{
-        margin-left: -1300px;
+        margin-left: -1150px;
         
     }
+    .navbar-icon{
+        display: none;
+    }
+    .navbar-container{
+        
+        margin-left: 250px;
+    }
 }
+
  

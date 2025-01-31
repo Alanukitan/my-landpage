@@ -276,7 +276,13 @@ p{
             margin-left: 90px;
         }
         .footer-container{
-            margin: 20px;
+            margin: 20px;}
+            .navbar-icon{
+                display: none;
+            }
+            .navbar-container{
+                margin-left: 200px;
+            }
         
 
     }
